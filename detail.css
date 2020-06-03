@@ -1,4 +1,3 @@
-
 body {
 	/* margin-top: 20px; */
 	font-family: sans-serif;
@@ -43,41 +42,13 @@ nav.navigation li:active {
   color: #fff;
 }
 
-.home {
-  margin-top: 30px;
+h1 {
+  text-align: center;
+  padding-top: 40px;
 }
-
-#photo {
-  margin: 10px;
-  max-width:180px;
-}
-
-#info-left {
-  padding-left: 220px;
-  float:left;
-}
-
-#info-left img {
-  border: 5px solid gray;
-}
-
-#info-right {
-  float: right;
-  width:350px;
-  padding-right: 400px;
-}
-#info-right a {
-  text-decoration: none;
-  color: white;
-}
-#info-right a:hover {
-  text-decoration: underline;
-  color: #0FF;
-}
-
-.projects{
+.projects {
   padding-top: 30px;
-  background: #343434;
+  /* background: #eee; */
   display: flex;
   align-items: center;
   position: relative;
@@ -87,6 +58,7 @@ nav.navigation li:active {
   flex-wrap: wrap;
   padding: 0;
 }
+
 .projects h1 {
   width:100%;
   text-align: center;
@@ -96,8 +68,8 @@ nav.navigation li:active {
   position: relative;
   max-width: 300px;
   height: 215px;
-  background: white;
-  margin: 30px 120px;
+  background: #343434;
+  margin: 30px 30px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
@@ -129,7 +101,7 @@ nav.navigation li:active {
   margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
-  color: #111;
+  color: #eee;
   visibility: hidden;
   opacity: 0;
   transition: .3s ease-in-out;
@@ -140,53 +112,4 @@ nav.navigation li:active {
   opacity: 1;
   margin-top: -40px;
   transition-delay: .3s;
-}
-
-.projects button {
-  width: 110px;
-  height: 35px;
-  border: 1px solid #2196f3;
-  float: right;
-  cursor: pointer;
-  margin-top: 10px;
-  background: transparent;
-  outline: none;
-}
-.projects button a {
-	color: #2196f3;
-	text-decoration: none;
-}
-
-.projects button a:hover {
-  display: block;
-  color: #2196f3;
-  text-decoration: underline;
-}
-
-.aboutme {
-	background: #eee;
-	color:#343434;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 20px;
-}
-
-.contactme {
-  /* background: #343434; */
-  background: url(images/green.jpg);
-  color:white;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 20px;
-}
-
-.contactme a {
-  color: white;
-  text-decoration: none;
-}
-
-.contactme a:hover {
-  color: #0FF;
 }
