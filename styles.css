@@ -43,6 +43,7 @@ nav.navigation li:active {
   color: #fff;
 }
 
+
 .home {
   margin-top: 30px;
 }
@@ -74,6 +75,7 @@ nav.navigation li:active {
   text-decoration: underline;
   color: #0FF;
 }
+
 
 .projects{
   padding-top: 30px;
@@ -163,6 +165,7 @@ nav.navigation li:active {
   text-decoration: underline;
 }
 
+
 .aboutme {
 	background: #eee;
 	color:#343434;
@@ -171,6 +174,124 @@ nav.navigation li:active {
 	padding-bottom: 20px;
 	font-size: 20px;
 }
+
+.skill * {
+	box-sizing: border-box;
+}
+
+.skill ul,
+.skill li {
+	margin: 0;
+	padding: 0;
+}
+
+.skill {
+	display: flex;
+	align-items: center;
+	height: 400px;
+	justify-content: center;
+	text-align: left;
+}
+
+.skill ul {
+	width: 500px;
+}
+
+.skill li {
+	list-style: none;
+	color: #343434;
+	font-size: 18px;
+	margin: 48px 0;
+	position: relative;
+}
+
+.skill li::before,
+.skill li::after {
+	content: "";
+	display: block;
+	height: 16px;
+	width: 100%;
+	background-color: #eee;
+	position: absolute;
+	bottom: -28px;
+	border-radius: 6px;
+}
+
+.skill li::before {
+	box-shadow: 0 0 6px rgba(20,20,20,0.2);
+}
+
+.skill li::after {
+	background-color: #999;
+	animation-duration: 1.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+.js::after {
+	animation-name: js;
+}
+
+.html5::after {
+	animation-name: html5;
+}
+
+.css3::after {
+	animation-name: css3;
+}
+
+.python::after {
+	animation-name: python;
+}
+
+.c::after {
+	animation-name: c;
+}
+
+@keyframes js {
+	from {
+		width: 0;
+	}
+	to {
+		width: 40%;
+	}
+}
+
+@keyframes html5 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 60%;
+	}
+}
+
+@keyframes css3 {
+	from {
+		width: 0;
+	}
+	to {
+		width: 60%;
+	}
+}
+
+@keyframes python {
+	from {
+		width: 0;
+	}
+	to {
+		width: 75%;
+	}
+}
+
+@keyframes c {
+	from {
+		width: 0;
+	}
+	to {
+		width: 60%;
+	}
+}
+
 
 .contactme {
   /* background: #343434; */
