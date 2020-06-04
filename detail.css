@@ -16,6 +16,7 @@ nav.navigation {
 nav.navigation a {
   text-decoration:none;
   color:#ddd;
+	-webkit-text-stroke: 0.5px #aaa;
 }
 
 nav.navigation ul {
